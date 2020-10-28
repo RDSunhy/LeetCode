@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 /**
  * 1207. 独一无二的出现次数
@@ -9,7 +11,7 @@ import java.util.*;
  * 学习到 :
  * HashMap 中的 getOrDefault 方法
  * 存在Key 则返回value 否则返回传入的defaultValue参数
- * 利用HashSet 元素不可重复的特性 如果每个元素出现次数不同 则不会有重复有
+ * 利用HashSet 元素不可重复的特性 如果每个元素出现次数不同 则不会有重复元素Set的size跟Map应该一致
  */
 class LeetCode_1207 {
 
